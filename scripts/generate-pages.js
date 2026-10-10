@@ -23,7 +23,7 @@ function renderHeader(currentPath) {
   <header class="site-header" role="banner">
     <div class="container header-container">
       <a href="/" class="site-logo" aria-label="Happy Homes Interiors Home">
-        <img src="/images/images_logo.png" alt="Happy Homes Interiors Logo" width="140" height="48">
+        <img src="/images/logo.png" alt="Happy Homes Interiors Logo" width="140" height="48" onerror="this.onerror=null; this.src='/images/logo.png';">
       </a>
 
       <nav class="desktop-nav" aria-label="Primary Navigation">
@@ -79,7 +79,7 @@ function renderHeader(currentPath) {
   <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
     <div class="drawer-header">
       <a href="/" class="site-logo">
-        <img src="/images/images_logo.png" alt="Happy Homes Interiors" width="120">
+        <img src="/images/logo.png" alt="Happy Homes Interiors" width="120">
       </a>
       <button class="drawer-close" aria-label="Close menu">&times;</button>
     </div>
@@ -123,7 +123,7 @@ function renderFooter() {
       <div class="footer-top">
         <div>
           <a href="/" class="site-logo" style="margin-bottom: 1.25rem;">
-            <img src="/images/images_logo.png" alt="Happy Homes Interiors" width="150" style="filter: brightness(0) invert(1);">
+            <img src="/images/logo.png" alt="Happy Homes Interiors" width="150" style="filter: brightness(0) invert(1);">
           </a>
           <p class="footer-desc">${company.shortDesc}</p>
           <div class="footer-contact-list">
@@ -314,7 +314,7 @@ function renderConsultationForm(formTitle = "Book Your Personalized Design Consu
 }
 
 // Master HTML Shell
-function renderHtmlShell({ title, description, canonicalUrl, ogImage = '/images/images_about_pic34.jpg', currentPath, content, schemaJson }) {
+function renderHtmlShell({ title, description, canonicalUrl, ogImage = '/images/services/modular-kitchen.jpg', currentPath, content, schemaJson }) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ function renderHtmlShell({ title, description, canonicalUrl, ogImage = '/images/
   <meta property="og:image" content="${ogImage}">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/images_logo.png">
+  <link rel="icon" type="image/png" href="/images/logo.png">
   
   <!-- Design System CSS -->
   <link rel="stylesheet" href="/src/css/main.css">
@@ -362,7 +362,7 @@ function generateHomePage() {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
     "name": company.name,
-    "image": "https://happyhomesinteriors.com/images/images_logo.png",
+    "image": "https://happyhomesinteriors.com/images/logo.png",
     "@id": "https://happyhomesinteriors.com/#organization",
     "url": "https://happyhomesinteriors.com",
     "telephone": company.phonePrimary,
@@ -387,7 +387,7 @@ function generateHomePage() {
   <!-- Immersive Hero Banner -->
   <section class="home-hero">
     <div class="hero-media-wrapper">
-      <video class="hero-video" autoplay loop muted playsinline poster="/images/images_about_pic34.jpg">
+      <video class="hero-video" autoplay loop muted playsinline poster="/images/hero/hero-poster.jpg">
         <source src="/videos/hero.mp4" type="video/mp4">
       </video>
       <div class="hero-gradient-overlay"></div>
@@ -439,7 +439,7 @@ function generateHomePage() {
           </div>
         </div>
         <div style="position: relative;">
-          <img src="/images/images_about_pic34.jpg" alt="Happy Homes Interiors Craftsmanship" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;">
+          <img src="/images/about-studio.jpg" alt="Happy Homes Interiors Craftsmanship Studio" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;" onerror="this.onerror=null; this.src='/images/hero/studio-intro.jpg';">
           <div style="position: absolute; bottom: -1.5rem; right: -1.5rem; background: var(--color-walnut); color: var(--color-ivory); padding: 1.5rem; border-radius: var(--radius-sm); max-width: 240px; box-shadow: var(--shadow-md);">
             <div style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 700; color: var(--color-brass-light);">100%</div>
             <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em;">Factory-Manufactured Dust-Free Assembly</div>
@@ -462,7 +462,7 @@ function generateHomePage() {
         ${services.slice(0, 6).map(s => `
           <article class="service-card">
             <div class="service-card-media">
-              <img src="${s.heroImage}" alt="${s.title} by Happy Homes Interiors" loading="lazy">
+              <img src="${s.heroImage}" alt="${s.title} — Happy Homes Interiors Coimbatore" loading="lazy" onerror="this.onerror=null; this.src='/images/services/modular-kitchen.jpg';">
               <span class="service-card-tag">${s.category}</span>
             </div>
             <div class="service-card-body">
@@ -493,7 +493,7 @@ function generateHomePage() {
         ${projects.slice(0, 3).map(p => `
           <article class="project-card">
             <div class="project-card-media">
-              <img src="${p.heroImage}" alt="${p.title}" loading="lazy">
+              <img src="${p.heroImage}" alt="${p.title} in ${p.location}" loading="lazy" onerror="this.onerror=null; this.src='/images/projects/kitchen-hero.jpg';">
               <div class="project-card-overlay"></div>
               <span class="project-card-badge">${p.category}</span>
             </div>
@@ -627,7 +627,7 @@ function generateAboutPage() {
           <p>Whether crafting a modern minimalist apartment in RS Puram or executing a sprawling luxury duplex on Avinashi Road, our team operates with an uncompromising focus on durability, material honesty, and client satisfaction.</p>
         </div>
         <div>
-          <img src="/images/images_about_pic34.jpg" alt="Happy Homes Interiors Studio" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;">
+          <img src="/images/about-studio.jpg" alt="Happy Homes Interiors Coimbatore Design Studio" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;" onerror="this.onerror=null; this.src='/images/hero/studio-intro.jpg';">
         </div>
       </div>
     </div>
@@ -725,7 +725,7 @@ function generateServicesPage() {
         ${services.map(s => `
           <article class="service-card">
             <div class="service-card-media">
-              <img src="${s.heroImage}" alt="${s.title}" loading="lazy">
+              <img src="${s.heroImage}" alt="${s.title} — Happy Homes Interiors Coimbatore" loading="lazy" onerror="this.onerror=null; this.src='/images/services/modular-kitchen.jpg';">
               <span class="service-card-tag">${s.category}</span>
             </div>
             <div class="service-card-body">
@@ -850,7 +850,7 @@ function generateIndividualServicePages() {
             </div>
           </div>
           <div>
-            <img src="${service.heroImage}" alt="${service.title}" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;">
+            <img src="${service.heroImage}" alt="${service.title} by Happy Homes Interiors Coimbatore" style="border-radius: var(--radius-md); box-shadow: var(--shadow-lg); width: 100%;" onerror="this.onerror=null; this.src='/images/services/modular-kitchen.jpg';">
           </div>
         </div>
       </div>
@@ -957,7 +957,7 @@ function generateIndividualServicePages() {
             ${relatedServices.map(rs => `
               <article class="service-card">
                 <div class="service-card-media">
-                  <img src="${rs.heroImage}" alt="${rs.title}" loading="lazy">
+                  <img src="${rs.heroImage}" alt="${rs.title} — Happy Homes Interiors Coimbatore" loading="lazy" onerror="this.onerror=null; this.src='/images/services/modular-kitchen.jpg';">
                   <span class="service-card-tag">${rs.category}</span>
                 </div>
                 <div class="service-card-body">
@@ -1029,7 +1029,7 @@ function generateProjectsPage() {
         ${projects.map(p => `
           <article class="project-card" data-category="${p.categoryKey}">
             <div class="project-card-media">
-              <img src="${p.heroImage}" alt="${p.title}" loading="lazy">
+              <img src="${p.heroImage}" alt="${p.title} in ${p.location}" loading="lazy" onerror="this.onerror=null; this.src='/images/projects/kitchen-hero.jpg';">
               <div class="project-card-overlay"></div>
               <span class="project-card-badge">${p.category}</span>
             </div>
@@ -1125,7 +1125,7 @@ function generateIndividualProjectPages() {
             <span class="eyebrow">Project Imagery</span>
             <div style="display: grid; gap: 1.5rem;">
               ${project.gallery.map(img => `
-                <img src="${img}" alt="${project.title}" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md); width: 100%;">
+                <img src="${img}" alt="${project.title} in ${project.location}" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md); width: 100%;" onerror="this.onerror=null; this.src='/images/projects/kitchen-hero.jpg';">
               `).join('')}
             </div>
           </div>
@@ -1182,7 +1182,7 @@ function generateIndividualProjectPages() {
           ${otherProjects.map(op => `
             <article class="project-card">
               <div class="project-card-media">
-                <img src="${op.heroImage}" alt="${op.title}" loading="lazy">
+                <img src="${op.heroImage}" alt="${op.title} in ${op.location}" loading="lazy" onerror="this.onerror=null; this.src='/images/projects/kitchen-hero.jpg';">
                 <div class="project-card-overlay"></div>
                 <span class="project-card-badge">${op.category}</span>
               </div>

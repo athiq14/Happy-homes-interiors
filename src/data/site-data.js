@@ -60,8 +60,8 @@ export const services = [
     navTitle: "Modular Kitchens",
     category: "Kitchen & Dining",
     shortDesc: "Ergonomic, modern modular kitchens crafted with German hardware, premium waterproof carcasses, and scratch-resistant acrylic or PU finishes.",
-    heroImage: "/images/services_modular.jpg",
-    secondaryImage: "/images/amenities_kitchen.jpg",
+    heroImage: "/images/services/modular-kitchen.jpg",
+    secondaryImage: "/images/projects/kitchen-2.jpg",
     overview: "At Happy Homes Interiors, we design modular kitchens that are the harmonious heart of your home. Engineered around the golden work triangle (Sink, Cooktop, and Refrigerator), our modular kitchens blend ergonomic storage efficiency with timeless aesthetic appeal. Every kitchen is factory-crafted with precision-milled joinery to resist moisture, tropical heat, and heavy daily usage.",
     designPossibilities: [
       {
@@ -106,8 +106,8 @@ export const services = [
     navTitle: "Wardrobes",
     category: "Bedroom Storage",
     shortDesc: "Floor-to-ceiling sliding, hinged, and walk-in wardrobe suites designed with personalized organizers, integrated dressing niches, and internal warm LED lighting.",
-    heroImage: "/images/services_wardrobe.jpg",
-    secondaryImage: "/images/amenities_wardrobe.jpg",
+    heroImage: "/images/services/wardrobe-suite.jpg",
+    secondaryImage: "/images/projects/bedroom-4.jpg",
     overview: "Your wardrobe should be an effortless extension of your daily ritual. Happy Homes Interiors crafts bespoke wardrobe systems tailored to your specific wardrobe volume, clothing types, and accessories. From sleek floor-to-ceiling sliding wardrobes with tinted lacquered glass to walk-in dressing suites with backlit vanity niches, every unit is engineered for smooth daily operation.",
     designPossibilities: [
       {
@@ -152,8 +152,8 @@ export const services = [
     navTitle: "Living Room",
     category: "Living Spaces",
     shortDesc: "Sophisticated living rooms featuring fluted wall accents, curated ambient lighting, partition panel dividers, and bespoke entertainment centers.",
-    heroImage: "/images/services_living.jpg",
-    secondaryImage: "/images/amenities_interior.jpg",
+    heroImage: "/images/services/living-room.jpg",
+    secondaryImage: "/images/projects/courtyard-hero.jpg",
     overview: "The living room sets the tone for your entire home. It is where you welcome guests and unwind with family. Happy Homes Interiors creates living room spaces that balance architectural poise with warm hospitality. We curate layered lighting, feature accent walls, designer partition panels, and tailored furnishings that create an inviting sense of grandeur.",
     designPossibilities: [
       {
@@ -196,8 +196,8 @@ export const services = [
     navTitle: "Bedroom",
     category: "Private Suites",
     shortDesc: "Serene bedroom sanctuaries crafted with acoustic headboard paneling, tailored bedside storage, warm coves, and plush textures.",
-    heroImage: "/images/amenities_bedroom.png",
-    secondaryImage: "/images/portfolio_portfolio-box_cot.jpg",
+    heroImage: "/images/services/bedroom-interior.jpg",
+    secondaryImage: "/images/projects/bedroom-1.jpg",
     overview: "Your bedroom is a personal sanctuary dedicated to rest, quiet reflection, and rejuvenation. Happy Homes Interiors designs bedrooms that evoke luxury hotel suites while offering the comfort of home. Through tactile upholstered headboards, concealed wardrobe fronts, and gentle indirect lighting, we create tranquil master and guest bedrooms.",
     designPossibilities: [
       {
@@ -240,8 +240,8 @@ export const services = [
     navTitle: "Pooja Unit",
     category: "Sacred Spaces",
     shortDesc: "Custom-crafted prayer shrines and pooja rooms featuring traditional teak wood carvings, backlit CNC jaali panels, and brass bell details.",
-    heroImage: "/images/services_pooja.jpg",
-    secondaryImage: "/images/amenities_interior.jpg",
+    heroImage: "/images/services/pooja-mandir.jpg",
+    secondaryImage: "/images/materials/material-wood.jpg",
     overview: "The Pooja room is the spiritual cornerstone of a home in Tamil Nadu. Happy Homes Interiors approaches every pooja unit with deep reverence and artistic precision. Whether designing a dedicated sanctum or a compact apartment prayer alcove, we combine solid teak wood craftsmanship, intricate CNC jaali motifs, soft warm backlighting, and brass bells to create a peaceful divine sanctuary.",
     designPossibilities: [
       {
@@ -284,8 +284,8 @@ export const services = [
     navTitle: "False Ceilings",
     category: "Architectural Ceiling",
     shortDesc: "Architectural false ceiling concepts featuring gypsum coves, wooden rafters, magnetic track lighting, and acoustic enhancements.",
-    heroImage: "/images/services_ceiling.jpg",
-    secondaryImage: "/images/services_living.jpg",
+    heroImage: "/images/services/false-ceiling.jpg",
+    secondaryImage: "/images/materials/material-light.jpg",
     overview: "A well-designed ceiling transforms the spatial proportion of any room. Happy Homes Interiors designs false ceilings that frame your lighting, conceal air-conditioning ducts and wiring, and bring architectural drama to your ceilings. From minimalist perimeter coves that create a floating effect to rich wooden rafter grids, our ceilings are built with premium moisture-resistant gypsum boards.",
     designPossibilities: [
       {
@@ -328,8 +328,8 @@ export const services = [
     navTitle: "TV Units",
     category: "Media Living",
     shortDesc: "Contemporary media walls with fluted charcoal panels, Italian stone slabs, floating console drawers, and concealed wiring paths.",
-    heroImage: "/images/services_tv.jpg",
-    secondaryImage: "/images/portfolio_portfolio-box_tv.jpg",
+    heroImage: "/images/services/tv-unit.jpg",
+    secondaryImage: "/images/projects/monolith-2.jpg",
     overview: "Modern living spaces revolve around the entertainment hub. Happy Homes Interiors designs bespoke TV media units that conceal cluttered cords, integrate gaming consoles and soundbars, and create a focal point in your room. We combine stone-textured claddings, fluted timber panels, bronze glass display cabinets, and ambient backlighting.",
     designPossibilities: [
       {
@@ -372,8 +372,8 @@ export const services = [
     navTitle: "Custom Furniture",
     category: "Artisanal Craft",
     shortDesc: "Handcrafted dining suites, bespoke accent credenzas, luxury study desks, and tailored upholstery made to exact room proportions.",
-    heroImage: "/images/services_furniture.jpg",
-    secondaryImage: "/images/about_pic34.jpg",
+    heroImage: "/images/services/custom-furniture.jpg",
+    secondaryImage: "/images/materials/material-metal.jpg",
     overview: "Off-the-shelf mass-produced furniture rarely matches the exact spatial dimensions or character of your residence. Happy Homes Interiors operates dedicated woodworking and finishing facilities where skilled artisans handcraft furniture pieces that fit your rooms to the exact centimeter. From 8-seater solid wood dining tables with marble tops to tailored accent armchairs, our furniture is built to last generations.",
     designPossibilities: [
       {
@@ -416,8 +416,8 @@ export const services = [
     navTitle: "Complete Home Interiors",
     category: "Turnkey Architecture",
     shortDesc: "End-to-end turnkey interior design and execution for apartments, independent villas, and duplex residences across Coimbatore & Tamil Nadu.",
-    heroImage: "/images/services_home.jpg",
-    secondaryImage: "/images/amenities_interior.jpg",
+    heroImage: "/images/services/complete-home.jpg",
+    secondaryImage: "/images/projects/penthouse-hero.jpg",
     overview: "Embarking on a complete home interior project can be overwhelming when managing multiple separate contractors. Happy Homes Interiors offers a unified turnkey fit-out solution. From 3D space planning, civil alterations, electrical rewiring, and false ceilings to bespoke modular kitchens, custom wardrobes, and styling, our dedicated project managers oversee every milestone from concept to final key handover.",
     designPossibilities: [
       {
@@ -461,8 +461,8 @@ export const services = [
     navTitle: "Kitchen Cabinets",
     category: "Cabinetry Systems",
     shortDesc: "Heavy-duty waterproof kitchen cabinetry, pantry pull-outs, corner organizers, and durable overhead lift-up cabinets.",
-    heroImage: "/images/services_kitchen.jpg",
-    secondaryImage: "/images/portfolio_portfolio-box_kitchen.jpg",
+    heroImage: "/images/services/kitchen-cabinets.jpg",
+    secondaryImage: "/images/projects/kitchen-5.jpg",
     overview: "Kitchen cabinets must withstand moisture, daily thermal shifts, and heavy cooking utensils. Happy Homes Interiors manufactures high-performance kitchen cabinets using boiling-water-proof (BWP) plywood and anti-corrosive hardware. From heavy-duty pot drawers rated for 60kg to hydraulic overhead flaps that open with a gentle touch, our cabinets are built for durability.",
     designPossibilities: [
       {
@@ -505,8 +505,8 @@ export const services = [
     navTitle: "Kids Room",
     category: "Youth Spaces",
     shortDesc: "Inspiring children's bedrooms with study workstations, modular bunk beds, rounded child-safe edges, and vibrant storage systems.",
-    heroImage: "/images/services_kids.jpg",
-    secondaryImage: "/images/amenities_bedroom.png",
+    heroImage: "/images/services/kids-bedroom.jpg",
+    secondaryImage: "/images/projects/bedroom-5.jpg",
     overview: "Children require bedrooms that adapt as they learn, play, and grow. Happy Homes Interiors designs kids' rooms that spark imagination while prioritizing safety, ergonomics, and practical storage. Featuring rounded joinery corners, non-toxic eco paints, multi-functional study desks, and clever toy storage benches, our kids' rooms are made for joyful childhoods.",
     designPossibilities: [
       {
@@ -549,8 +549,8 @@ export const services = [
     navTitle: "Bathroom",
     category: "Bath Suites",
     shortDesc: "Spa-inspired bathroom interiors featuring waterproof floating vanities, backlit LED mirrors, quartz counters, and smart niche storage.",
-    heroImage: "/images/amenities_interior.jpg",
-    secondaryImage: "/images/services_home.jpg",
+    heroImage: "/images/services/bathroom-vanity.jpg",
+    secondaryImage: "/images/materials/material-stone.jpg",
     overview: "Bathrooms are no longer just utilitarian; they are private wellness sanctuaries. Happy Homes Interiors transforms master and guest bathrooms with custom floating vanities, sleek backlit mirrors, quartz undermount tops, and moisture-sealed cabinetry. By combining smart concealed storage for toiletries with warm indirect lighting, we create tranquil spa-like environments.",
     designPossibilities: [
       {
@@ -600,11 +600,12 @@ export const projects = [
     year: "2024",
     area: "240 sq.ft",
     duration: "4 Weeks",
-    heroImage: "/images/portfolio_portfolio-box_kitchen.jpg",
+    heroImage: "/images/projects/kitchen-hero.jpg",
     gallery: [
-      "/images/portfolio_portfolio-box_kitchen.jpg",
-      "/images/services_kitchen.jpg",
-      "/images/services_modular.jpg"
+      "/images/projects/kitchen-hero.jpg",
+      "/images/projects/kitchen-1.jpg",
+      "/images/projects/kitchen-3.jpg",
+      "/images/projects/kitchen-4.jpg"
     ],
     shortDesc: "An expansive U-shaped modular kitchen in RS Puram featuring high-gloss champagne acrylic shutters, Calacatta quartz countertops, and Blum motorized lift-up cabinets.",
     clientFeedback: "Happy Homes Interiors completely transformed our dated kitchen into an absolute dream. The workflow triangle is flawless, and the soft-close drawers glide effortlessly. Their attention to detail was exceptional.",
@@ -634,11 +635,11 @@ export const projects = [
     year: "2024",
     area: "380 sq.ft",
     duration: "3 Weeks",
-    heroImage: "/images/portfolio_portfolio-box_wardrob.jpg",
+    heroImage: "/images/services/wardrobe-suite.jpg",
     gallery: [
-      "/images/portfolio_portfolio-box_wardrob.jpg",
-      "/images/amenities_wardrobe.jpg",
-      "/images/services_wardrobe.jpg"
+      "/images/services/wardrobe-suite.jpg",
+      "/images/projects/bedroom-2.jpg",
+      "/images/projects/bedroom-4.jpg"
     ],
     shortDesc: "A 10-foot floor-to-ceiling sliding wardrobe system in Peelamedu, crafted with fluted tinted glass, warm walnut veneer, and internal sensor-activated velvet organizers.",
     clientFeedback: "The sliding doors are so smooth you barely hear them move. The velvet jewelry tray and sensor lights make dressing in the morning feel like a luxury hotel experience.",
@@ -667,11 +668,12 @@ export const projects = [
     year: "2023",
     area: "460 sq.ft",
     duration: "5 Weeks",
-    heroImage: "/images/portfolio_portfolio-box_tv.jpg",
+    heroImage: "/images/projects/monolith-hero.jpg",
     gallery: [
-      "/images/portfolio_portfolio-box_tv.jpg",
-      "/images/services_tv.jpg",
-      "/images/services_living.jpg"
+      "/images/projects/monolith-hero.jpg",
+      "/images/services/tv-unit.jpg",
+      "/images/projects/monolith-1.jpg",
+      "/images/projects/monolith-3.jpg"
     ],
     shortDesc: "A bespoke media lounge in Race Course incorporating vertical charcoal fluted louvers, a statuario marble feature wall, and a cantilevered floating console with hidden wire chases.",
     clientFeedback: "Our living room is the first thing guests see, and the compliments haven't stopped. Happy Homes executed the marble wall and fluted wood work with unbelievable craftsmanship.",
@@ -700,10 +702,11 @@ export const projects = [
     year: "2023",
     area: "110 sq.ft",
     duration: "3 Weeks",
-    heroImage: "/images/services_pooja.jpg",
+    heroImage: "/images/services/pooja-mandir.jpg",
     gallery: [
-      "/images/services_pooja.jpg",
-      "/images/amenities_interior.jpg"
+      "/images/services/pooja-mandir.jpg",
+      "/images/materials/material-wood.jpg",
+      "/images/materials/material-light.jpg"
     ],
     shortDesc: "A consecrated prayer mandir in Ramanathapuram crafted in authentic Burma teak wood, featuring backlit Corian CNC jaali screens and traditional brass bell fittings.",
     clientFeedback: "Designing a pooja room requires spiritual understanding and respect for traditions. The team at Happy Homes Interiors captured our vision perfectly. The brass bells and glowing jaali bring profound peace.",
@@ -732,12 +735,12 @@ export const projects = [
     year: "2024",
     area: "3,600 sq.ft",
     duration: "10 Weeks",
-    heroImage: "/images/services_home.jpg",
+    heroImage: "/images/projects/courtyard-hero.jpg",
     gallery: [
-      "/images/services_home.jpg",
-      "/images/amenities_interior.jpg",
-      "/images/services_living.jpg",
-      "/images/about_pic34.jpg"
+      "/images/projects/courtyard-hero.jpg",
+      "/images/projects/penthouse-hero.jpg",
+      "/images/projects/courtyard-1.jpg",
+      "/images/projects/courtyard-4.jpg"
     ],
     shortDesc: "End-to-end turnkey interior execution for an expansive 4BHK duplex on Avinashi Road, encompassing double-height living areas, a modular chef's kitchen, custom suites, and designer false ceilings.",
     clientFeedback: "From the initial 3D renderings to the final key handover, Happy Homes Interiors managed everything smoothly. No surprises, no cost escalations, and delivered right on time. Truly exceptional service.",
@@ -766,10 +769,11 @@ export const projects = [
     year: "2024",
     area: "220 sq.ft",
     duration: "3 Weeks",
-    heroImage: "/images/services_kids.jpg",
+    heroImage: "/images/services/kids-bedroom.jpg",
     gallery: [
-      "/images/services_kids.jpg",
-      "/images/portfolio_portfolio-box_cot.jpg"
+      "/images/services/kids-bedroom.jpg",
+      "/images/projects/bedroom-3.jpg",
+      "/images/projects/bedroom-5.jpg"
     ],
     shortDesc: "A multi-functional kids bedroom in Saibaba Colony featuring rounded safety joinery, an ergonomic study desk with adjustable shelving, and stair-integrated storage.",
     clientFeedback: "Our kids love their new bedroom! The desk setup makes doing homework fun, and the stair drawers swallow all the toys. Happy Homes Interiors used zero-smell paints which we appreciated.",
